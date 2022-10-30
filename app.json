@@ -4,7 +4,7 @@
     "slug": "Tree",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./imgs/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -22,12 +22,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./imgs/icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./imgs/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "72f1586f-dc9a-4c3d-8fb3-5db6899f2a2c"
+      }
     }
   }
 }

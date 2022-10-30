@@ -4,22 +4,16 @@ import * as React from 'react';
 
 
 
-const HomeScreen = ({ navigation }) => {
+const Notification = ({ navigation }) => {
     return (
-      // <Button
-      //   title="Go to Jane's profile"
-      //   onPress={() =>
-      //     navigation.navigate('Profile', { name: 'Jane' })
-      //   }
-      // />
 
       <View style={styles.container}>
-      <Image source={require('../imgs/homepage.jpg')} resizeMode="cover" style={styles.image}/>
+      <Image source={require('../imgs/notification.jpg')} resizeMode="cover" style={styles.image}/>
     </View>
     );
   };
 
-  export default HomeScreen;
+  export default Notification;
 
   const styles = StyleSheet.create({
     container: {
